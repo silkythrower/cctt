@@ -4,16 +4,17 @@
   
   "maintainers": [
     {
-      "name": "",
+      "name": "S.T.",
       "email": ""
     }
   ],
   "name": "CCTT",
-    "dependencies": {},
+  "dependencies": {},
   "description": "...",
   "devDependencies": {
     "@types/core-js": "^0.9.35",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+	  "nodemon": "1.2.0"
   },
   "directories": {},
   "optionalDependencies": {},
@@ -28,3 +29,4 @@
   }
   
 }
+
