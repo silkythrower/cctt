@@ -67,5 +67,3 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname+'/cctt/index.html'));
 });
 
-// Expose the artyom-source folder
-//app.use('/source', express.static('./artyom-source'));
