@@ -1,27 +1,30 @@
 {
+
   "license": "MIT",
+  
+  "maintainers": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
   "name": "CCTT",
-  "description": "",
+    "dependencies": {},
+  "description": "...",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "express": "^4.14.0"
+  },
+  "directories": {},
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silkythrower/cctt.git",
-  "engines": {
-    "node": ">= 6.x",
-    "npm": ">= 3.x"
+    "url": "git+https://github.com/silkythrower/cctt.git"
   },
-  "dependencies": {
-
-  }, 
-  
-   "devDependencies": {
-   "@types/core-js": "^0.9.35",
-   "express": "^4.14.0"
-  },
-  "main": "sandbox/server.js",
   "scripts": {
    
     "sandbox": "nodemon ./sandbox/server.js localhost 8080"
   }
   
-}
 }
