@@ -1,0 +1,27 @@
+{
+  "license": "MIT",
+  "name": "CCTT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silkythrower/cctt.git",
+  "engines": {
+    "node": ">= 6.x",
+    "npm": ">= 3.x"
+  },
+  "dependencies": {
+
+  }, 
+  
+   "devDependencies": {
+   "@types/core-js": "^0.9.35",
+   "express": "^4.14.0"
+  },
+  "main": "sandbox/server.js",
+  "scripts": {
+   
+    "sandbox": "nodemon ./sandbox/server.js localhost 8080"
+  }
+  
+}
+}
