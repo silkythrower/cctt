@@ -1,36 +1,39 @@
 {
-
   "license": "MIT",
-  
   "maintainers": [
-    {
-      "name": "S.T.",
-      "email": ""
-    }
+    ""
   ],
-  "name": "CCTT",
+  "name": "cctt",
   "dependencies": {},
   "description": "...",
   "engines": {
-  "node": ">= 6.x",
-  "npm": ">= 3.x"
+    "node": ">= 6.x",
+    "npm": ">= 3.x"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.35",
+    "console-stamp": "^0.2.2",
     "express": "^4.14.0",
     "nodemon": "1.2.0"
   },
   "directories": {},
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silkythrower/cctt.git"
   },
   "scripts": {
-   
     "sandbox": "nodemon ./sandbox/server.js localhost 8080"
-  }
-  
+  },
+  "bugs": {
+    "url": "https://github.com/silkythrower/cctt/issues"
+  },
+  "homepage": "https://github.com/silkythrower/cctt#readme",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [
+    "Voice",
+    "Control"
+  ],
+  "author": "SilkyThrower"
 }
-
